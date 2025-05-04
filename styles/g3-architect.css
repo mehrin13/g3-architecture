@@ -220,6 +220,10 @@ main {
 }
 
 /* Our Sponsors */
+.sponsors {
+    margin-bottom: 150px;
+}
+
 .sponsors-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -231,6 +235,17 @@ main {
     filter: grayscale(100%);
 }
 
+/* footer */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+}
+
+.footer-content {
+    padding: 20px 40px;
+    text-align: center;
+}
 
 /* responsive media query */
 /* small device */
